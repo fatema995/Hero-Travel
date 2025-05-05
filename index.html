@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page Design</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="font-sans text-gray-800 mt-6">
+
+  <!-- Navbar -->
+  <nav class="bg-white py-6">
+    <div class="max-w-7xl mx-auto px-5 flex items-center justify-between">
+      <!-- Logo and Title -->
+      <div class="flex items-center space-x-2">
+        <img src="./images/group-40071(2).png" alt="Hero Travel Logo" class="w-10 h-10" />
+        <h2 class="text-3xl font-bold">
+          <span class="text-black">Hero</span> <span class="text-orange-500">Travel</span>
+        </h2>
+      </div>
+
+      <!-- Menu -->
+      <ul class="flex space-x-8 text-black-700 font-medium text-xl">
+        <li><a href="#" class="hover:text-orange-500">Home</a></li>
+        <li><a href="#packages" class="hover:text-orange-500">Packages</a></li>
+        <li><a href="#testimonial" class="hover:text-orange-500">Testimonial</a></li>
+        <li><a href="#blog" class="hover:text-orange-500">Blog</a></li>
+        <li><a href="#contact" class="hover:text-orange-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+<section class="bg-cover bg-center text-white py-40 mt-6 relative"
+style="background-image: url(/images/group-13\(1\)\(1\).png); background-position: center center; border-radius: 20px; margin-left: 10%; margin-right: 10%; max-width: 80%;">
+<!-- Dark Overlay -->
+<div class="absolute inset-0 bg-black opacity-60 rounded-xl"></div>
+
+<div class="text-center relative z-10">
+  <h2 class="text-5xl font-bold mb-4">Explore Your Travel</h2>
+  <p class="mb-8 max-w-xl mx-auto text-lg">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies
+    dolor adipiscing. In et odio enim ac quis sapien urna eu proseluis.</p>
+  <div
+    class="flex justify-center gap-6 flex-wrap bg-white/5 backdrop-blur-sm p-4 rounded-xl max-w-3xl mx-auto border border-white/5">
+    <input type="text" placeholder="Where go" class="p-3 rounded-lg text-black w-40" />
+    <input type="text" placeholder="When" class="p-3 rounded-lg text-black w-40" />
+    <input type="text" placeholder="Select Type" class="p-3 rounded-lg text-black w-40" />
+    <button class="bg-orange-500 text-white px-5 py-3 rounded-lg">Find Now</button>
+  </div>
+</div>
+</section>
+
+
+  <!-- Popular Tours -->
+  <section class="max-w-7xl mx-auto px-5 py-16 mt-12">
+    <div class="flex flex-col lg:flex-row items-center gap-10">
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold mb-4">Our Popular Tours</h2>
+        <p class="mb-4">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.</p>
+        <ul class="list-disc ml-5 mb-4 space-y-2">
+          <li>Tempus euismod lacus mauris dignissim quis in ultrices.</li>
+          <li>Adipiscing ornare pellentesque mauris volutpat tortor.</li>
+          <li>Accumsan eget et turpis praesent lorem egestas enim.</li>
+        </ul>
+        <p class="mb-6">Vulputate commodo felis molestie risus ornare nulla amet.</p>
+        <button class="bg-orange-500 text-white px-5 py-3 rounded-lg">Read More</button>
+      </div>
+      <div class="flex-1">
+        <img src="/images/rectangle-4.png" alt="Mountain" class="rounded-xl shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Choose Your Destination Section -->
+  <section class="bg-gray-50 py-16">
+    <div class="max-w-7xl mx-auto px-5">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-3">Choose Your Destination</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+          odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Maldives -->
+        <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <img src="/images/rectangle-5.png" alt="Maldives"
+            class="w-full h-[350px] object-cover transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <h3 class="text-white text-xl font-semibold">Maldives</h3>
+            <p class="text-white/80 text-sm mt-1">Maldiverse of the maldiverse in future</p>
+          </div>
+        </div>
+
+        <!-- Indonesia -->
+        <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <img src="/images/rectangle-8.png" alt="Indonesia"
+            class="w-full h-[350px] object-cover transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <h3 class="text-white text-xl font-semibold">Indonesia</h3>
+          </div>
+        </div>
+
+        <!-- Srilanka -->
+        <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <img src="/images/rectangle-6.png" alt="Srilanka"
+            class="w-full h-[350px] object-cover transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <h3 class="text-white text-xl font-semibold">Srilanka</h3>
+          </div>
+        </div>
+
+        <!-- North America -->
+        <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <img src="/images/rectangle-7.png" alt="North America"
+            class="w-full h-[350px] object-cover transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <h3 class="text-white text-xl font-semibold">North America</h3>
+          </div>
+        </div>
+
+        <!-- Kashmir -->
+        <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <img src="/images/rectangle-9.png" alt="Kashmir"
+            class="w-full h-[350px] object-cover transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <h3 class="text-white text-xl font-semibold">Kashmir</h3>
+          </div>
+        </div>
+
+        <!-- Bangladesh -->
+        <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <img src="/images/rectangle-11.png" alt="Bangladesh"
+            class="w-full h-[350px] object-cover transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <h3 class="text-white text-xl font-semibold">Bangladesh</h3>
+          </div>
+        </div>
+
+        <!-- Bandarban -->
+        <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <img src="/images/rectangle-10.png" alt="Bandarban"
+            class="w-full h-[350px] object-cover transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <h3 class="text-white text-xl font-semibold">Bandarban</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-gray-100 text-center py-12 px-4">
+    <div class="flex flex-col items-center space-y-4">
+      <!-- Logo and Title -->
+      <div class="flex items-center space-x-2">
+        <img src="./images/group-40071(2).png" alt="Hero Travel Logo" class="w-10 h-10" />
+        <h2 class="text-3xl font-bold">
+          <span class="text-black">Hero</span> <span class="text-orange-500">Travel</span>
+        </h2>
+      </div>
+
+      <!-- Description -->
+      <p class="max-w-xl text-gray-600 text-sm">
+        Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate.
+        Leo erat maecenas vitae elementum ultricies nullam.
+      </p>
+
+      <!-- Social Links - Updated with all four icons -->
+      <div class="flex space-x-6 text-2xl text-gray-700">
+        <a href="https://twitter.com/" target="_blank" class="hover:text-orange-500" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://facebook.com/" target="_blank" class="hover:text-orange-500" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com/" target="_blank" class="hover:text-orange-500" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" class="hover:text-orange-500" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <!-- Divider -->
+      <div class="w-full h-px bg-gray-300 my-6"></div>
+
+      <!-- Copyright -->
+      <p class="text-sm text-gray-600">2025, All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
